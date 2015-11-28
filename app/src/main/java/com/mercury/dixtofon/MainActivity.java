@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 dialogEditText.setText(
                         getString(R.string.recording_name) + " " + (RecordingsStore.getInstance().getNumberOfRecords() + 1)
                 );
+                dialogEditText.setTextColor(getResources().getColor(android.R.color.black));
+                dialogEditText.setPadding(10,10,10,10);
                 builder.setView(dialogEditText)
                         .setTitle(R.string.enter_name)
                         .setPositiveButton(R.string.save, new DialogInterface.OnClickListener() {
