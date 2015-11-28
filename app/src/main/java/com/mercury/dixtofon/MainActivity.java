@@ -21,7 +21,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Капец... Тут такого нах*евертил, что аж самому страшно-_-
+ * Капец... Тут такого понаписал, что аж самому страшно-_-
  */
 
 public class MainActivity extends AppCompatActivity {
