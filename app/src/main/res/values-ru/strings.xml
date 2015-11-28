@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dixtofon</string>
+    <string name="action_settings">Настройки</string>
+    <string name="cancel">Отмена</string>
+    <string name="empty_records">Записей нет</string>
+    <string name="enter_name">Введите название</string>
+    <string name="error_playing">Ошибка воспроизведения...</string>
+    <string name="playing">Воспроизводится</string>
+    <string name="recording_canceled">Запись отменена!</string>
+    <string name="recording_name">Запись</string>
+    <string name="recording_now">Идет запись... Смахните для отмены</string>
+    <string name="recording_saved">Запись сохранена</string>
+    <string name="save">Сохранить</string>
+    <string name="save_canceled">Сохранение отменено!</string>
+    <string name="stop_recording">Стоп</string>
+    <string name="delete_message">Удалить</string>
+    <string name="OK">Ok</string>
+    <string name="deleted">Удалено!</string>
+</resources>
