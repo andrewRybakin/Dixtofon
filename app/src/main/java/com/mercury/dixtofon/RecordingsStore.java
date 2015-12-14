@@ -17,7 +17,7 @@ import java.util.Arrays;
 
 public class RecordingsStore {
 
-    private static final String STORE_DIRECTORY =
+    public static final String STORE_DIRECTORY =
             Environment.getExternalStorageDirectory().getAbsolutePath() +
                     "/" +
                     Environment.DIRECTORY_MUSIC + "/Dixtofon";
@@ -64,7 +64,7 @@ public class RecordingsStore {
             tempFile.deleteOnExit();
             numberOfRecords++;
             //Обновление листвю
-            LocalBroadcastManager.getInstance(c).sendBroadcast(MainActivityFragment.UPDATE_INTENT.putExtra(MainActivityFragment.EXTRA_NEW_ITEM, f));
+            LocalBroadcastManager.getInstance(c).sendBroadcast(MainActivityFragment.UPDATE_INTENT);
         } catch (IOException e) {
             Log.e(LOG_TAG, "aaa", e);
         }

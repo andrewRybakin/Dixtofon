@@ -17,4 +17,10 @@
     <string name="delete_message">Удалить</string>
     <string name="OK">Ok</string>
     <string name="deleted">Удалено!</string>
+    <string name="play">Воспроизвести</string>
+    <string name="pause_playing">Пауза</string>
+    <string name="rename">Переименовать</string>
+    <string name="delete">Удалить</string>
+    <string name="recording_renamed">Запись переименована!</string>
+    <string name="recording_renaming_fail">Не переименовано!</string>
 </resources>
