@@ -153,9 +153,8 @@ public class MainActivityFragment extends ListFragment {
                     public void onClick(DialogInterface dialog, int which) {
                         if (rPlayer.isNowPlaying())
                             rPlayer.abandon();
-                        item.delete();
+                            Snackbar.make(getListView(), (item.delete())?getString(R.string.deleted):getString(R.string.not_delete), Snackbar.LENGTH_SHORT).show();
                         rescanStore();
-                        Snackbar.make(getListView(), getString(R.string.deleted), Snackbar.LENGTH_SHORT).show();
                     }
                 })
                 .setNegativeButton(R.string.cancel, null)
@@ -185,7 +184,6 @@ public class MainActivityFragment extends ListFragment {
                                  i++)
                                 ;
                         if (tF.renameTo(f))
-
                             Snackbar.make(getListView(), R.string.recording_renamed, Snackbar.LENGTH_SHORT).show();
                         else
                             Snackbar.make(getListView(), R.string.recording_renaming_fail, Snackbar.LENGTH_SHORT).show();

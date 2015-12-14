@@ -22,4 +22,5 @@
     <string name="delete">Delete</string>
     <string name="recording_renamed">Recording renamed!</string>
     <string name="recording_renaming_fail">Can\'t rename!</string>
+    <string name="not_delete">Can\'t delete!</string>
 </resources>
